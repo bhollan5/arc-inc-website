@@ -1,0 +1,15 @@
+@import './variables';
+
+
+$navbar-item-img-max-height: 80px;
+$navbar-height: 6rem;
+$family-primary: Courier;
+.navbar-item {
+  margin-right: 30px;
+}
+
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
+
+
