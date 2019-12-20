@@ -1,11 +1,22 @@
 @import './variables';
 
+@font-face {
+  font-family: AmericanTypewriter;
+  src: url(../fonts/AmericanTypewriterRegular.ttf);
+}
+@font-face {
+  font-family: CrimsonText;
+  src: url(../fonts/CrimsonText-Regular.ttf);
+}
 
 $navbar-item-img-max-height: 80px;
 $navbar-height: 6rem;
-$family-primary: Courier;
+$family-primary: AmericanTypewriter;
 .navbar-item {
   margin-right: 30px;
+}
+.section {
+  padding: 0px;
 }
 
 @import "~bulma";

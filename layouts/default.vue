@@ -36,7 +36,7 @@
             </b-navbar-item>
         </template>
     </b-navbar>
-
+    <nuxt />>
   </div>
 </template>
 
