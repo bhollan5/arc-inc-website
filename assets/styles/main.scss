@@ -19,6 +19,23 @@ $family-primary: AmericanTypewriter;
   padding: 0px;
 }
 
+.blue-action-button {
+  background: $navy;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-family: CrimsonText;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.blue-action-button span {
+  text-shadow: 0px 0px 0px white;
+  transition-duration: .5s;
+}
+.blue-action-button span:hover {
+  text-shadow: 0px 0px 10px white;
+}
+
 @import "~bulma";
 @import "~buefy/src/scss/buefy";
 

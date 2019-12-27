@@ -12,6 +12,14 @@
         <p>Increase the value of your home with our space planning & design expertise.  </p>
       </div>
     </div>
+    <div id="action-buttons">
+      <router-link tag="button" class="blue-action-button" to="/">
+        <span>View our senior living work  →</span>
+      </router-link>
+      <router-link tag="button" class="blue-action-button" to="/">
+        <span>View our home staging work  →</span>
+      </router-link>
+    </div>
   </section>
 </template>
 
@@ -27,17 +35,26 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #option-banners {
   width: 100%;
   height: 500px;
   display: flex;
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+    height: 1000px;
+  }
 }
+
 .banner-section {
   width: 50%;
   height: 100%;
   overflow: hidden;
   position: relative; /* For the banner image's absolute positioning */
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+    height: 50%;
+  }
 }
 #senior-living-banner {
   
@@ -63,7 +80,7 @@ export default {
 }
 .banner-section h2 {
   position: relative;
-  padding: 45% 50px 0px;
+  padding: 275px 50px 0px;
   font-size: 2.5em;
   color: white;
   z-index:10;
@@ -77,5 +94,17 @@ export default {
   padding: 10px 50px 0px 50px;
   font-family: CrimsonText;
   text-shadow: 0px 0px 10px rgba(0,0,0,.7);
+}
+// Action buttons
+#action-buttons {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.blue-action-button {
+  margin-top: 70px;
+  font-size: 20px;
 }
 </style>
