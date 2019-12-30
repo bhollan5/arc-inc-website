@@ -123,6 +123,7 @@ export default {
   width: 100%;
   background: $navy;
   color: white;
+  font-family: CrimsonText;
   img {
     filter: invert(1) brightness(100);
   }

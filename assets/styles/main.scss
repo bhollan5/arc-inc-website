@@ -36,6 +36,34 @@ $family-primary: AmericanTypewriter;
   text-shadow: 0px 0px 10px white;
 }
 
+// Used at the top of our-work page
+.image-banner {
+  width: 100%;
+  height: 400px;
+  color: white;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  img {
+    width: 100%;
+    object-fit:cover;
+    filter: brightness(65%);
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+  }
+  h1 {
+    font-size: 3.5em;
+    margin-top: 80px;
+    width: 40%;
+    min-width: 600px;
+    margin-left: 50%;
+    transform: translatex(-50%);
+    text-shadow: 0px 0px 10px black;
+  }
+}
+
 @import "~bulma";
 @import "~buefy/src/scss/buefy";
 
