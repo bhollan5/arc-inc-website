@@ -39,7 +39,7 @@
 <script>
 
 export default {
-  name: 'OurWork',
+  name: 'seniorWork',
 
 }
 </script>
@@ -48,8 +48,10 @@ export default {
 @import '../../assets/styles/variables';
 
 .image-banner {
-  
-  
+  height: 400px;
+  img {
+    filter: brightness(65%);
+  }
 }
 .blue-subtitle {
   width: 100%;

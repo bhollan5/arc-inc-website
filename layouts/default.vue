@@ -13,10 +13,10 @@
 
         <template slot="end">
           <b-navbar-dropdown label="SENIOR LIVING" hoverable>
-                <b-navbar-item href="#">
+                <b-navbar-item href="/senior-living/our-work">
                     Our Work
                 </b-navbar-item>
-                <b-navbar-item href="#">
+                <b-navbar-item href="/senior-living/services">
                     Services
                 </b-navbar-item>
             </b-navbar-dropdown>

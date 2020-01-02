@@ -13,7 +13,7 @@
       </div>
     </div>
     <div id="action-buttons">
-      <router-link tag="button" class="blue-action-button" to="/">
+      <router-link tag="button" class="blue-action-button" to="/senior-living/our-work">
         <span>View our senior living work  →</span>
       </router-link>
       <router-link tag="button" class="blue-action-button" to="/">
