@@ -28,10 +28,10 @@
                     Services
                 </b-navbar-item>
             </b-navbar-dropdown>
-            <b-navbar-item href="#">
+            <b-navbar-item href="/us">
                 US
             </b-navbar-item>
-            <b-navbar-item href="#">
+            <b-navbar-item href="/contact">
                 CONTACT
             </b-navbar-item>
         </template>

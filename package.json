@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "nuxt": "^2.0.0",
-    "nuxt-buefy": "^0.3.2"
+    "nuxt-buefy": "^0.3.2",
+    "vue-flickity": "^1.2.1"
   },
   "devDependencies": {
     "node-sass": "^4.13.0",

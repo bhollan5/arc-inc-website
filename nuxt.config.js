@@ -27,6 +27,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    { src: '~/plugins/VueFlickity.js', ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules
