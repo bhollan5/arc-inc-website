@@ -9,10 +9,11 @@
     </div>
     <div class="image-gallery">
       <div class="gallery-image-container">
-        <img src="../../assets/senior_living/gallery/senior_living_gallery_2.png">
+        <img src="../../assets/senior_living/gallery/senior_living_gallery_1.jpg"
+        class="rotate">
       </div>
       <div class="gallery-image-container">
-        <img src="../../assets/senior_living/gallery/senior_living_gallery_1.png">
+        <img src="../../assets/senior_living/gallery/senior_living_gallery_2.jpg">
       </div>
       <div class="gallery-image-container">
         <img src="../../assets/senior_living/gallery/senior_living_gallery_3.png">
@@ -31,6 +32,29 @@
       </div>
       <div class="gallery-image-container">
         <img src="../../assets/senior_living/gallery/senior_living_gallery_8.png">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/senior_living/gallery/senior_living_gallery_9.png">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/senior_living/gallery/senior_living_gallery_10.jpg"
+        class="rotate">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/senior_living/gallery/senior_living_gallery_11.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/senior_living/gallery/senior_living_gallery_12.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/senior_living/gallery/senior_living_gallery_13.jpg"
+        class="rotate">
+      </div>
+      <!--<div class="gallery-image-container">
+        <img src="../../assets/senior_living/gallery/senior_living_gallery_14.jpg">
+      </div>-->
+      <div class="gallery-image-container">
+        <img src="../../assets/senior_living/gallery/senior_living_gallery_15.jpg">
       </div>
     </div>
     <div id="testimonials">
@@ -82,6 +106,7 @@ export default {
   height: 400px;
   img {
     filter: brightness(65%);
+    margin-top: -150px;
   }
 }
 .blue-subtitle {
@@ -106,6 +131,10 @@ export default {
     img {
       height: 100%;
       object-fit:cover;
+      transition-duration: .5s;
+    }
+    img:hover {
+      transform: scale(1.1);
     }
   }
 }
@@ -138,5 +167,9 @@ hr {
 }
 .flickity-container {
   width: 100%;
+}
+
+.rotate {
+  transform: rotate(90deg);
 }
 </style>
