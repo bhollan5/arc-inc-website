@@ -134,7 +134,8 @@ export default {
       transition-duration: .5s;
     }
     img:hover {
-      transform: scale(1.1);
+      height: 110%;
+      margin-top: -5%;
     }
   }
 }
