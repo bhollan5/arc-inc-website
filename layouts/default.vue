@@ -21,7 +21,7 @@
                 </b-navbar-item>
             </b-navbar-dropdown>
             <b-navbar-dropdown label="HOME STAGING" hoverable>
-                <b-navbar-item href="#">
+                <b-navbar-item href="/home-staging/our-work">
                     Our Work
                 </b-navbar-item>
                 <b-navbar-item href="#">

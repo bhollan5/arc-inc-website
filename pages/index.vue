@@ -5,18 +5,24 @@
         <div class="banner-image" id="senior-living-image"></div>
         <h2>Senior Living</h2>
         <p>For decades, ARC Inc. has been designing thoughtful, dignified spaces for the senior living community. </p>
+        <router-link tag="button" class="blue-action-button mobile-only" to="/senior-living/our-work">
+          <span>View our senior living work  →</span>
+        </router-link>
       </div>
       <div id="home-staging-banner" class="banner-section">
         <div class="banner-image" id="home-staging-image"></div>
         <h2>Home Staging</h2>
         <p>Increase the value of your home with our space planning & design expertise.  </p>
+        <router-link tag="button" class="blue-action-button mobile-only" to="/home-staging/our-work">
+          <span>View our home staging work  →</span>
+        </router-link>
       </div>
     </div>
     <div id="action-buttons">
-      <router-link tag="button" class="blue-action-button" to="/senior-living/our-work">
+      <router-link tag="button" class="blue-action-button desktop-only" to="/senior-living/our-work">
         <span>View our senior living work  →</span>
       </router-link>
-      <router-link tag="button" class="blue-action-button" to="/">
+      <router-link tag="button" class="blue-action-button desktop-only" to="/home-staging/our-work">
         <span>View our home staging work  →</span>
       </router-link>
     </div>
@@ -36,6 +42,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
+@import '../assets/styles/variables';
+
 #option-banners {
   width: 100%;
   height: 500px;
@@ -81,6 +90,10 @@ export default {
 .banner-section h2 {
   position: relative;
   padding: 275px 50px 0px;
+  @media only screen and (max-width: $bp) {
+      padding: 155px 50px 0px;
+
+  }
   font-size: 2.5em;
   color: white;
   z-index:10;
@@ -106,5 +119,10 @@ export default {
 .blue-action-button {
   margin-top: 70px;
   font-size: 20px;
+  z-index: 100;
+  &.mobile-only {
+    position: relative;
+    margin-left:50px;
+  }
 }
 </style>
