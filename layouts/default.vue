@@ -54,22 +54,22 @@
           <router-link to="/" class="footer-link" tag="div">
             Home
           </router-link>
-          <router-link to="/" class="footer-link" tag="div">
+          <router-link to="/senior-living/our-work" class="footer-link" tag="div">
             Senior Living Portfolio
           </router-link>
-          <router-link to="/" class="footer-link" tag="div">
+          <router-link to="/senior-living/services" class="footer-link" tag="div">
             Senior Living Services
           </router-link>
-          <router-link to="/" class="footer-link" tag="div">
+          <router-link to="/home-staging/our-work" class="footer-link" tag="div">
             Home Staging Portfolio
           </router-link>
-          <router-link to="/" class="footer-link" tag="div">
+          <router-link to="/home-staging/services" class="footer-link" tag="div">
             Home Staging Services
           </router-link>
-          <router-link to="/" class="footer-link" tag="div">
+          <router-link to="/us" class="footer-link" tag="div">
             Us
           </router-link>
-          <router-link to="/" class="footer-link" tag="div">
+          <router-link to="/contact" class="footer-link" tag="div">
             Contact
           </router-link>
         </div>

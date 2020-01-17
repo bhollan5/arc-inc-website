@@ -42,6 +42,9 @@ export default {
 
 .image-banner {
   height: 600px;
+  @media only screen and (max-width: $bp) {
+    
+  }
   #banner-text {
     padding-left: 50px; 
 
