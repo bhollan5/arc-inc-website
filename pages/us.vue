@@ -76,6 +76,7 @@ h1 {
 
 .bio {
   display: flex;
+  flex-flow: row wrap;
   font-family: CrimsonText;
   margin-bottom: 100px;
   img {

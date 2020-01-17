@@ -51,9 +51,6 @@ p {
   img {
     width: 100%;
     object-fit:cover;
-    @media only screen and (max-width: $bp) {
-      width: 200px;
-    }
     
     position: absolute;
     z-index: -1;
