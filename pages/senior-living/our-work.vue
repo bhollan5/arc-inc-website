@@ -104,9 +104,26 @@ export default {
 
 .image-banner {
   height: 400px;
+  width: 100%;
+  h1 {
+    margin-top: 80px;
+  }
+
+  @media only screen and (max-width: $bp) {
+    height: 200px;
+    h1 {
+      font-size: 1.7em;
+      width: 100%;
+      margin-top: 40px;
+    }
+  }
   img {
     filter: brightness(65%);
     margin-top: -150px;
+    @media only screen and (max-width: $bp) {
+      margin-top: 0px;
+      object-fit: cover;
+    }
   }
 }
 .blue-subtitle {
@@ -156,10 +173,14 @@ hr {
 
 .testimonial {
   width: 425px;
+  max-width: 100%;
   height: 310px;
   background: white;
   padding: 40px 20px;
   margin: 20px;
+  @media only screen and (max-width: $bp) {
+    height: 400px;
+  }
   h3 {
     font-size: 22px;
     font-weight: bold;

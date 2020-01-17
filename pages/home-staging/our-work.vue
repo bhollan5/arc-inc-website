@@ -107,6 +107,10 @@ export default {
   img {
     filter: brightness(65%);
     margin-top: -150px;
+    @media only screen and (max-width: $bp) {
+      margin-top: 0px;
+      
+    }
   }
 }
 .blue-subtitle {

@@ -6,7 +6,7 @@
                 <img
                     src="~assets/arc-logo.png"
                     alt="Arc Inc. logo"
-                    height="100"
+                    id="main-logo"
                 >
             </b-navbar-item>
         </template>
@@ -119,6 +119,13 @@ export default {
 <style scoped lang="scss" >
 @import '../assets/styles/variables';
 
+#main-logo {
+  height: 100px;
+  @media only screen and (max-width: $bp) {
+    height: 50px;
+  }
+}
+
 #footer {
   width: 100%;
   background: $navy;
@@ -126,17 +133,21 @@ export default {
   font-family: CrimsonText;
   img {
     filter: invert(1) brightness(100);
+    margin-bottom: 40px;
   }
 }
 #footer-content-container {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+  flex-flow: row wrap;
   padding-top: 100px;
 
 }
 .footer-section {
   width: 22%;
+  min-width: 300px;
+  margin-bottom: 40px;
   .footer-title {
     font-weight: bold;
   }
