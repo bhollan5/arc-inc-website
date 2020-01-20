@@ -1,3 +1,4 @@
+
 <template>
   <section>
     <div class="image-banner">
@@ -5,56 +6,32 @@
       <h1>Our home staging increases your home's value.</h1>
     </div>
     <div class="blue-subtitle">
-      ARC Inc. has been designing thoughtful, dignified senior spaces for decades. 
+      Our interior design specialists know how to sell a house. 
     </div>
     <div class="image-gallery">
       <div class="gallery-image-container">
-        <img src="../../assets/senior_living/gallery/senior_living_gallery_1.jpg"
-        class="rotate">
+        <img src="../../assets/home_staging/gallery/Akron.jpg">
       </div>
       <div class="gallery-image-container">
-        <img src="../../assets/senior_living/gallery/senior_living_gallery_2.jpg">
+        <img src="../../assets/home_staging/gallery/akron2.jpg">
       </div>
       <div class="gallery-image-container">
-        <img src="../../assets/senior_living/gallery/senior_living_gallery_3.png">
+        <img src="../../assets/home_staging/gallery/akron4.jpg">
       </div>
       <div class="gallery-image-container">
-        <img src="../../assets/senior_living/gallery/senior_living_gallery_4.png">
+        <img src="../../assets/home_staging/gallery/akron7.jpg">
       </div>
       <div class="gallery-image-container">
-        <img src="../../assets/senior_living/gallery/senior_living_gallery_5.png">
+        <img src="../../assets/home_staging/gallery/dover-035.jpg">
       </div>
       <div class="gallery-image-container">
-        <img src="../../assets/senior_living/gallery/senior_living_gallery_6.png">
+        <img src="../../assets/home_staging/gallery/IMG_1120.JPG">
       </div>
       <div class="gallery-image-container">
-        <img src="../../assets/senior_living/gallery/senior_living_gallery_7.png">
+        <img src="../../assets/home_staging/gallery/P1020764.JPG">
       </div>
       <div class="gallery-image-container">
-        <img src="../../assets/senior_living/gallery/senior_living_gallery_8.png">
-      </div>
-      <div class="gallery-image-container">
-        <img src="../../assets/senior_living/gallery/senior_living_gallery_9.png">
-      </div>
-      <div class="gallery-image-container">
-        <img src="../../assets/senior_living/gallery/senior_living_gallery_10.jpg"
-        class="rotate">
-      </div>
-      <div class="gallery-image-container">
-        <img src="../../assets/senior_living/gallery/senior_living_gallery_11.jpg">
-      </div>
-      <div class="gallery-image-container">
-        <img src="../../assets/senior_living/gallery/senior_living_gallery_12.jpg">
-      </div>
-      <div class="gallery-image-container">
-        <img src="../../assets/senior_living/gallery/senior_living_gallery_13.jpg"
-        class="rotate">
-      </div>
-      <!--<div class="gallery-image-container">
-        <img src="../../assets/senior_living/gallery/senior_living_gallery_14.jpg">
-      </div>-->
-      <div class="gallery-image-container">
-        <img src="../../assets/senior_living/gallery/senior_living_gallery_15.jpg">
+        <img src="../../assets/home_staging/gallery/photo_c.jpg">
       </div>
     </div>
     <div id="testimonials">
@@ -104,10 +81,26 @@ export default {
 
 .image-banner {
   height: 400px;
+  width: 100%;
+  h1 {
+    margin-top: 80px;
+  }
+
+  @media only screen and (max-width: $bp) {
+    height: 200px;
+    h1 {
+      font-size: 1.7em;
+      width: 100%;
+      margin-top: 40px;
+    }
+  }
   img {
     filter: brightness(65%);
     margin-top: -150px;
-    
+    @media only screen and (max-width: $bp) {
+      margin-top: 0px;
+      object-fit: cover;
+    }
   }
 }
 .blue-subtitle {
@@ -157,10 +150,14 @@ hr {
 
 .testimonial {
   width: 425px;
+  max-width: 100%;
   height: 310px;
   background: white;
   padding: 40px 20px;
   margin: 20px;
+  @media only screen and (max-width: $bp) {
+    height: 400px;
+  }
   h3 {
     font-size: 22px;
     font-weight: bold;
