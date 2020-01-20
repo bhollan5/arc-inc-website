@@ -34,6 +34,11 @@
         <img src="../../assets/home_staging/gallery/photo_c.jpg">
       </div>
     </div>
+
+    <router-link to="/home-staging/services" tag="button" class="blue-action-button">
+        See our home staging services →
+    </router-link>
+
     <div id="testimonials">
       <h2>Testimonials</h2>
       <hr>
@@ -78,6 +83,15 @@ export default {
 
 <style scoped lang="scss">
 @import '../../assets/styles/variables';
+
+button {
+    margin-left: 50%;
+    transform: translatex(-50%);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-width: 100px;
+    display: block;
+  }
 
 .image-banner {
   height: 400px;

@@ -57,6 +57,11 @@
         <img src="../../assets/senior_living/gallery/senior_living_gallery_15.jpg">
       </div>
     </div>
+
+    <router-link to="/senior-living/services" tag="button" class="blue-action-button">
+        See our senior living services →
+    </router-link>
+
     <div id="testimonials">
       <h2>Testimonials</h2>
       <hr>
@@ -101,6 +106,15 @@ export default {
 
 <style scoped lang="scss">
 @import '../../assets/styles/variables';
+
+button {
+    margin-left: 50%;
+    transform: translatex(-50%);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-width: 100px;
+    display: block;
+  }
 
 .image-banner {
   height: 400px;
