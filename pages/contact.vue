@@ -13,7 +13,7 @@
         </p>
         <p class="contact-line">
           <img src="@/assets/icons/phone.png" width="25" style="margin-right:10px;">
-          <a href="tel:555-555-5555">555-555-5555</a>
+          <a href="tel:330-239-4474">330.239.4474</a> ext 129
         </p>
       </div>
     </div>
