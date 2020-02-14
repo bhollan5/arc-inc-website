@@ -93,6 +93,10 @@ button {
     display: block;
   }
 
+
+flickity { display: block; }
+.flickity { display: block; }
+
 .image-banner {
   height: 400px;
   width: 100%;
