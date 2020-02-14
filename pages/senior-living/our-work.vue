@@ -95,7 +95,7 @@ export default {
           initialIndex: 3,
           prevNextButtons: false,
           pageDots: true,
-          wrapAround: true
+          wrapAround: false
         }
     }
   },

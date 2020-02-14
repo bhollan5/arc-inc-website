@@ -36,22 +36,23 @@ export default {
         {
           name: "Teresa Holland",
           title: "Project Principal",
-          bio: ["Teresa started ARC inc. in 200X. She's proud to have worked in an executive design role  on all the company's major projects. ",
-          "Teresa graduated from Kent State University with a BA in Interior Architecture."],
+          bio: [""],
+          // Teresa started ARC inc. in 200X. She's proud to have worked in an executive design role  on all the company's major projects. ",
+          //"Teresa graduated from Kent State University with a BA in Interior Architecture.
           img: "teresa.jpg",
           email: "tgresock@hollandmgmt.com"
         },
         {
           name: "Laura Wack",
           title: "Lead Interior Designer",
-          bio: ["[ Bio here! ]"],
+          bio: [""],
           img: "laura.jpg",
           email: "lwack@hollandmgmt.com"
         },
         {
           name: "Don Funk",
           title: "Architecture consultant",
-          bio: ["[ Bio here! ]"],
+          bio: [""],
           img: "don.jpg",
           email: "dfunk@hollandmgmt.com"
         }
