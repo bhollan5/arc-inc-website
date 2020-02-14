@@ -43,7 +43,7 @@
       <h2>Testimonials</h2>
       <hr>
       <div class="flickity-container">
-        <Flickity :options="flickityOptions">
+        <Flickity :options="flickityOptions" ref="flick">
           <div class="testimonial">
             <h3>Tony Maroni, LNHA</h3>
             <p>"ARC designed our dining room. We get compliments on it daily. Our residents and staff are extremely pleased with functionality of the space. On a personal level, working with the designer Teresa is a pleasure to deal with and she is a great communicator, very talented with great creative ideas.  They were able to work within a set budget to help control costs. We look forward to working with ARC again soon!"</p>
@@ -75,6 +75,10 @@ export default {
           wrapAround: true
         }
     }
+  },
+
+  mounted() {
+    setTimeout(() => this.$refs.flick.reloadCells(), 1500);
   },
   components: {
   }
