@@ -11,15 +11,17 @@
     <div id="services">
       <h2>ARC Senior Living Services</h2>
       <ul>
-        <li>»	Operational review of spaces.</li>
-        <li>»	Space planning.</li>
-        <li>»	Selection of finish & materials.</li>
-        <li>»	Furniture procurement, maintaining relationships with vendors.</li>
-        <li>»	Specification of furniture, accessories, artwork, plants, decorative lighting, & window treatment.</li>
-        <li>»	Consultation access for your business' future needs.</li>
-        <li>»	Design for renovated spaces as well as new construction.</li>
-        <li>»	Construction documents for all interior finishes – flooring, walls, ceiling, art placement.</li>
-        <li>»	Provide conceptual images and sketches.</li>
+        <li>»	Operational review of spaces</li>
+        <li>»	Space planning</li>
+        <li>»	Selection of finish & materials</li>
+        <li>»	Furniture procurement, maintaining relationships with vendors</li>
+        <li>»	Specification of furniture, accessories, artwork, plants, decorative lighting, & window treatment</li>
+        <li>»	Consultation access for your business' future needs</li>
+        <li>»	Design for renovated spaces as well as new construction</li>
+        <li>»	Construction documents for all interior finishes – flooring, walls, ceiling, art placement</li>
+        <li>»	Provide conceptual images and sketches</li>
+        <br>
+        <li>All furnishings meet state and federal safety requirements.</li>
       </ul>
       <router-link to="/contact" tag="button" class="blue-action-button">
         Contact us for pricing →

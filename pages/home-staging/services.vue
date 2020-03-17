@@ -10,17 +10,8 @@
     </div>
     <div id="services">
       <h2>ARC Home Staging Services </h2>
-      <ul>
-        <li>»	Operational review of spaces.</li>
-        <li>»	Space planning.</li>
-        <li>»	Selection of finish & materials.</li>
-        <li>»	Furniture procurement, maintaining relationships with vendors.</li>
-        <li>»	Specification of furniture, accessories, artwork, plants, decorative lighting, & window treatment.</li>
-        <li>»	Consultation access for your business' future needs.</li>
-        <li>»	Design for renovated spaces as well as new construction.</li>
-        <li>»	Construction documents for all interior finishes – flooring, walls, ceiling, art placement.</li>
-        <li>»	Provide conceptual images and sketches.</li>
-      </ul>
+      <p>Our home staging services include <b>empty home staging </b>for realtors, home owners, and investors.</p>
+      <p><b>Any number of rooms can be staged,</b> including but not limited to kitchens, master suites, bathrooms, living rooms, and dining rooms. </p>
       <router-link to="/contact" tag="button" class="blue-action-button">
         Contact us for pricing →
       </router-link>
@@ -72,6 +63,7 @@ export default {
     }
     p {
       font-size: 20px;
+
       width: 60%;
       @media only screen and (max-width: $bp) {
         width: 100%;
@@ -93,6 +85,11 @@ export default {
     margin-bottom: 50px;
     min-width: 100px;
     display: block;
+  }
+  p {
+    text-align: center;
+    font-size: 20px;
+    margin: 25px ;
   }
 }
 h2 {
