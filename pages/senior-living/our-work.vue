@@ -2,7 +2,7 @@
   <section>
     <div class="image-banner">
       <img src="../../assets/senior_living/our_work_banner.png">
-      <h1>Creating dignfied senior living environments is our specialty.</h1>
+      <h1>Creating dignified senior living environments is our specialty.</h1>
     </div>
     <div class="blue-subtitle">
       ARC Inc. has been designing thoughtful, dignified senior spaces for decades. 
