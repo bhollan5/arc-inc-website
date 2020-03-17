@@ -9,7 +9,7 @@
       
     </div>
     <div id="services">
-      <h2>ARC Home Staging Services <br><i style="opacity:.5;">(Needs to be updated)</i></h2>
+      <h2>ARC Home Staging Services </h2>
       <ul>
         <li>»	Operational review of spaces.</li>
         <li>»	Space planning.</li>
