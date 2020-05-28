@@ -59,7 +59,7 @@
       </div>
       <div class="gallery-image-container">
         <img src="../../assets/home_staging/new/home_staging_8.jpg">
-      </div>
+      </div> 
 
     </div>
 
