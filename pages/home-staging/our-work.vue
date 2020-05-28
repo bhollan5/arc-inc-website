@@ -33,6 +33,34 @@
       <div class="gallery-image-container">
         <img src="../../assets/home_staging/gallery/photo_c.jpg">
       </div>
+
+      <!-- New -->
+
+      <div class="gallery-image-container">
+        <img src="../../assets/home_staging/new/home_staging_1.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/home_staging/new/home_staging_2.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/home_staging/new/home_staging_3.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/home_staging/new/home_staging_4.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/home_staging/new/home_staging_5.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/home_staging/new/home_staging_6.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/home_staging/new/home_staging_7.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/home_staging/new/home_staging_8.jpg">
+      </div>
+
     </div>
 
     <router-link to="/home-staging/services" tag="button" class="blue-action-button">
