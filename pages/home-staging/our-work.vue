@@ -43,16 +43,16 @@
         <img src="../../assets/home_staging/new/home_staging_2.jpg">
       </div>
       <div class="gallery-image-container">
-        <img src="../../assets/home_staging/new/home_staging_3.jpg">
+        <img src="../../assets/home_staging/new/home_staging_3.JPG">
       </div>
       <div class="gallery-image-container">
-        <img src="../../assets/home_staging/new/home_staging_4.jpg">
+        <img src="../../assets/home_staging/new/home_staging_4.JPG">
       </div>
       <div class="gallery-image-container">
         <img src="../../assets/home_staging/new/home_staging_5.jpg">
       </div>
       <div class="gallery-image-container">
-        <img src="../../assets/home_staging/new/home_staging_6.jpg">
+        <img src="../../assets/home_staging/new/home_staging_6.JPG">
       </div>
       <div class="gallery-image-container">
         <img src="../../assets/home_staging/new/home_staging_7.jpg">
