@@ -9,8 +9,7 @@
     </div>
     <div class="image-gallery">
       <div class="gallery-image-container">
-        <img src="../../assets/senior_living/gallery/senior_living_gallery_1.jpg"
-        class="rotate">
+        <img src="../../assets/senior_living/gallery/senior_living_gallery_1.jpg">
       </div>
       <div class="gallery-image-container">
         <img src="../../assets/senior_living/gallery/senior_living_gallery_2.jpg">
@@ -37,8 +36,7 @@
         <img src="../../assets/senior_living/gallery/senior_living_gallery_9.png">
       </div>
       <div class="gallery-image-container">
-        <img src="../../assets/senior_living/gallery/senior_living_gallery_10.jpg"
-        class="rotate">
+        <img src="../../assets/senior_living/gallery/senior_living_gallery_10.jpg">
       </div>
       <div class="gallery-image-container">
         <img src="../../assets/senior_living/gallery/senior_living_gallery_11.jpg">
@@ -47,8 +45,7 @@
         <img src="../../assets/senior_living/gallery/senior_living_gallery_12.jpg">
       </div>
       <div class="gallery-image-container">
-        <img src="../../assets/senior_living/gallery/senior_living_gallery_13.jpg"
-        class="rotate">
+        <img src="../../assets/senior_living/gallery/senior_living_gallery_13.jpg">
       </div>
       <!--<div class="gallery-image-container">
         <img src="../../assets/senior_living/gallery/senior_living_gallery_14.jpg">
