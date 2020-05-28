@@ -53,6 +53,61 @@
       <div class="gallery-image-container">
         <img src="../../assets/senior_living/gallery/senior_living_gallery_15.jpg">
       </div>
+
+      <!-- New additions: -->
+      <div class="gallery-image-container">
+        <img src="../../assets/senior_living/new_additions/senior_living_gallery_16.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/senior_living/new_additions/senior_living_gallery_17.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/senior_living/new_additions/senior_living_gallery_18.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/senior_living/new_additions/senior_living_gallery_19.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/senior_living/new_additions/senior_living_gallery_20.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/senior_living/new_additions/senior_living_gallery_21.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/senior_living/new_additions/senior_living_gallery_22.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/senior_living/new_additions/senior_living_gallery_23.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/senior_living/new_additions/senior_living_gallery_24.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/senior_living/new_additions/senior_living_gallery_25.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/senior_living/new_additions/senior_living_gallery_26.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/senior_living/new_additions/senior_living_gallery_27.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/senior_living/new_additions/senior_living_gallery_28.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/senior_living/new_additions/senior_living_gallery_29.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/senior_living/new_additions/senior_living_gallery_30.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/senior_living/new_additions/senior_living_gallery_31.jpg">
+      </div>
+      <div class="gallery-image-container">
+        <img src="../../assets/senior_living/new_additions/senior_living_gallery_32.jpg">
+      </div>
+      
+
     </div>
 
     <router-link to="/senior-living/services" tag="button" class="blue-action-button">
