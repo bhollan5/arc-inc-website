@@ -101,10 +101,10 @@
         <img src="../../assets/senior_living/new_additions/senior_living_gallery_30.jpg">
       </div>
       <div class="gallery-image-container">
-        <img src="../../assets/senior_living/new_additions/senior_living_gallery_31.jpg">
+        <img src="../../assets/senior_living/new_additions/senior_living_gallery_31.JPG">
       </div>
       <div class="gallery-image-container">
-        <img src="../../assets/senior_living/new_additions/senior_living_gallery_32.jpg">
+        <img src="../../assets/senior_living/new_additions/senior_living_gallery_32.JPG">
       </div>
       
 
