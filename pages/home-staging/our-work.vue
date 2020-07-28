@@ -79,6 +79,8 @@ import testimonials from '~/components/testimonials.vue';
 export default {
   name: 'seniorWork',
   data() {
+    return {
+    }
   },
 
   mounted() {

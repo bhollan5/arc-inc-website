@@ -114,7 +114,9 @@
         See our senior living services →
     </router-link>
 
-    
+    <!-- Using our testimonials component -->
+    <testimonials></testimonials>
+
   </section>
 </template>
 
@@ -125,12 +127,7 @@ export default {
   name: 'seniorWork',
   data() {
     return {
-      flickityOptions: {
-          initialIndex: 3,
-          prevNextButtons: false,
-          pageDots: true,
-          wrapAround: false
-        }
+      
     }
   },
   mounted() {
