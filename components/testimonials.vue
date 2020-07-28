@@ -50,6 +50,9 @@
 
 export default {
   name: 'seniorWork',
+  mounted() {
+      setTimeout(() => this.$refs.flick.reloadCells(), 1500);
+  },
   data() {
     return {
       flickityOptions: {

@@ -8,58 +8,63 @@
     <div class="blue-subtitle">
       Our interior design specialists know how to sell a house. 
     </div>
+
     <div class="image-gallery">
-      <div class="gallery-image-container">
-        <img src="../../assets/home_staging/gallery/Akron.jpg">
-      </div>
-      <div class="gallery-image-container">
-        <img src="../../assets/home_staging/gallery/akron2.jpg">
-      </div>
-      <div class="gallery-image-container">
-        <img src="../../assets/home_staging/gallery/akron4.jpg">
-      </div>
-      <div class="gallery-image-container">
-        <img src="../../assets/home_staging/gallery/akron7.jpg">
-      </div>
-      <div class="gallery-image-container">
-        <img src="../../assets/home_staging/gallery/dover-035.jpg">
-      </div>
-      <div class="gallery-image-container">
-        <img src="../../assets/home_staging/gallery/IMG_1120.JPG">
-      </div>
-      <div class="gallery-image-container">
-        <img src="../../assets/home_staging/gallery/P1020764.JPG">
-      </div>
-      <div class="gallery-image-container">
-        <img src="../../assets/home_staging/gallery/photo_c.jpg">
-      </div>
+      <Flickity :options="flickityOptions" ref="flick">
 
-      <!-- New -->
+        <div class="gallery-image-container">
+          <img src="../../assets/home_staging/gallery/Akron.jpg">
+        </div>
+        <div class="gallery-image-container">
+          <img src="../../assets/home_staging/gallery/akron2.jpg">
+        </div>
+        <div class="gallery-image-container">
+          <img src="../../assets/home_staging/gallery/akron4.jpg">
+        </div>
+        <div class="gallery-image-container">
+          <img src="../../assets/home_staging/gallery/akron7.jpg">
+        </div>
+        <div class="gallery-image-container">
+          <img src="../../assets/home_staging/gallery/dover-035.jpg">
+        </div>
+        <div class="gallery-image-container">
+          <img src="../../assets/home_staging/gallery/IMG_1120.JPG">
+        </div>
+        <div class="gallery-image-container">
+          <img src="../../assets/home_staging/gallery/P1020764.JPG">
+        </div>
+        <div class="gallery-image-container">
+          <img src="../../assets/home_staging/gallery/photo_c.jpg">
+        </div>
 
-      <div class="gallery-image-container">
-        <img src="../../assets/home_staging/new/home_staging_1.jpg">
-      </div>
-      <div class="gallery-image-container">
-        <img src="../../assets/home_staging/new/home_staging_2.jpg">
-      </div>
-      <div class="gallery-image-container">
-        <img src="../../assets/home_staging/new/home_staging_3.JPG">
-      </div>
-      <div class="gallery-image-container">
-        <img src="../../assets/home_staging/new/home_staging_4.JPG">
-      </div>
-      <div class="gallery-image-container">
-        <img src="../../assets/home_staging/new/home_staging_5.jpg">
-      </div>
-      <div class="gallery-image-container">
-        <img src="../../assets/home_staging/new/home_staging_6.JPG">
-      </div>
-      <div class="gallery-image-container">
-        <img src="../../assets/home_staging/new/home_staging_7.jpg">
-      </div>
-      <div class="gallery-image-container">
-        <img src="../../assets/home_staging/new/home_staging_8.jpg">
-      </div> 
+        <!-- New -->
+
+        <div class="gallery-image-container">
+          <img src="../../assets/home_staging/new/home_staging_1.jpg">
+        </div>
+        <div class="gallery-image-container">
+          <img src="../../assets/home_staging/new/home_staging_2.jpg">
+        </div>
+        <div class="gallery-image-container">
+          <img src="../../assets/home_staging/new/home_staging_3.JPG">
+        </div>
+        <div class="gallery-image-container">
+          <img src="../../assets/home_staging/new/home_staging_4.JPG">
+        </div>
+        <div class="gallery-image-container">
+          <img src="../../assets/home_staging/new/home_staging_5.jpg">
+        </div>
+        <div class="gallery-image-container">
+          <img src="../../assets/home_staging/new/home_staging_6.JPG">
+        </div>
+        <div class="gallery-image-container">
+          <img src="../../assets/home_staging/new/home_staging_7.jpg">
+        </div>
+        <div class="gallery-image-container">
+          <img src="../../assets/home_staging/new/home_staging_8.jpg">
+        </div> 
+
+      </Flickity>
 
     </div>
 
@@ -80,11 +85,17 @@ export default {
   name: 'seniorWork',
   data() {
     return {
+      flickityOptions: {
+        initialIndex: 3,
+        prevNextButtons: false,
+        pageDots: true,
+        wrapAround: true
+      }
     }
   },
 
   mounted() {
-    setTimeout(() => this.$refs.flick.reloadCells(), 1500);
+      setTimeout(() => this.$refs.flick.reloadCells(), 1500);
   },
   components: {
     testimonials
@@ -142,18 +153,16 @@ flickity { display: block; }
 
 .image-gallery {
   width: 100%;
+  height: 550px;
   padding: 50px 5%;
-  display: flex;
-  justify-content: space-around;
-  flex-flow: row wrap;
+  text-align: center;
   .gallery-image-container {
-    width: 400px;
     height: 400px;
-    overflow: hidden;
+    width: 100%;
     margin-bottom: 50px;
+    margin-top: 50px;
     img {
       height: 100%;
-      object-fit:cover;
       transition-duration: .5s;
     }
     img:hover {

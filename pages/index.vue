@@ -1,6 +1,12 @@
 <template>
   <section>
+
+
+
+    <!-- The landing page -->
     <div id="option-banners">
+
+      <!-- Senior living section -->
       <div id="senior-living-banner" class="banner-section">
         <div class="banner-image" id="senior-living-image"></div>
         <h2>Senior Living</h2>
@@ -9,6 +15,8 @@
           <span>View our senior living work  →</span>
         </router-link>
       </div>
+
+      <!-- Home staging section -->
       <div id="home-staging-banner" class="banner-section">
         <div class="banner-image" id="home-staging-image"></div>
         <h2>Home Staging</h2>
@@ -17,7 +25,10 @@
           <span>View our home staging work  →</span>
         </router-link>
       </div>
+
     </div>
+
+    <!-- Desktop action buttons -->
     <div id="action-buttons">
       <router-link tag="button" class="blue-action-button desktop-only" to="/senior-living/our-work">
         <span>View our senior living work  →</span>
@@ -26,6 +37,7 @@
         <span>View our home staging work  →</span>
       </router-link>
     </div>
+
   </section>
 </template>
 
