@@ -42,6 +42,7 @@
     <div id="footer">
       <div id="footer-content-container">
         <img
+            v-if="0"
             src="~assets/arc-logo.png"
             alt="Arc Inc. logo"
             height="100"
